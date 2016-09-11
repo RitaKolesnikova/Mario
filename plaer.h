@@ -44,7 +44,7 @@ public:
 		dx = 0;
 
 	}
-	void Collision(int dir)
+	void Collision(int dir)//fizica(na zemle ili net)
 	{
 		for (int i = rect.top / 16; i < (rect.top + rect.height) / 16; i++)
 			for (int j = rect.left / 16; j < (rect.left + rect.width) / 16; j++)

@@ -30,7 +30,7 @@ public:
 
 
 		currentFrame += time * 0.005;
-		if (currentFrame > 2) currentFrame -= 2;
+		if (currentFrame > 2) currentFrame -= 2;//animacia 
 
 		sprite.setTextureRect(IntRect(18 * int(currentFrame), 0, 16, 16));
 		if (!life) sprite.setTextureRect(IntRect(58, 0, 16, 16));
@@ -41,7 +41,7 @@ public:
 	}
 
 
-	void Collision()
+	void Collision()//obrabotka ctolknoveniy c blokami
 	{
 
 		for (int i = rect.top / 16; i<(rect.top + rect.height) / 16; i++)

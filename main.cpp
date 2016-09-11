@@ -76,7 +76,7 @@ bool startGame()
 		enemy.update(time);
 
 
-		if (p.rect.intersects(enemy.rect))//обработка столкновений с врагом
+		if (p.rect.intersects(enemy.rect))//obrabotka ctolknoveniy c vragom
 		{
 			if (enemy.life)
 			{
@@ -104,8 +104,7 @@ bool startGame()
 				tile.setPosition(j * 16 - offsetX, i * 16 - offsetY);
 				window.draw(tile);
 			}
-		//очки и жизни________________________________________________________________
-		Font font;//шрифт 
+		Font font;//wrift 
 		font.loadFromFile("CyrilicOld.ttf");
 		Text Life("", font, 20);
 		Life.setStyle(sf::Text::Bold | sf::Text::Underlined);
@@ -119,7 +118,7 @@ bool startGame()
 		Score.setPosition(1, 1);
 		Life.setString("Жизнь:" + playerLife.str());
 		Life.setPosition(100, 1);
-		window.draw(Life);//рисую этот текст
+		window.draw(Life);
 		window.draw(Score);
 		window.draw(p.sprite);
 		window.draw(enemy.sprite);

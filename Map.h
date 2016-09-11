@@ -1,7 +1,7 @@
 #include <SFML/Graphics.hpp>
 
 using namespace sf;
-
+//menu
 void menu(RenderWindow & window)
 {
 	int MenuNum = 0;
@@ -43,7 +43,7 @@ void menu(RenderWindow & window)
 		window.display();
 	}
 }
-
+//zagruzka karty
 void map_create(int level) {
 	if (level == 1) {
 
