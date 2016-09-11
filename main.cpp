@@ -2,8 +2,8 @@
 float offset_x = 16, offset_y = 16;
 const int H = 39;
 const int W = 52;
-std::string TileMap[36];
-std::string TileMapB[56];
+std::string TileMap[39];
+std::string TileMapB[52];
 #include"Map.h"
 #include"plaer.h"
 #include"ENEMY.h"
