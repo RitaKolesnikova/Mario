@@ -1,0 +1,2 @@
+﻿  main.cpp
+c:\users\евросеть\documents\visual studio 2015\projects\mario\mario\main.cpp(1): fatal error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory

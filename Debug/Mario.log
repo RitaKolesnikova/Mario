@@ -1,0 +1,23 @@
+﻿  main.cpp
+c:\users\евросеть\documents\visual studio 2015\projects\dfn\mario\plaer.h(21): warning C4305: =: усечение из "double" к "float"
+c:\users\евросеть\documents\visual studio 2015\projects\dfn\mario\plaer.h(32): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\евросеть\documents\visual studio 2015\projects\dfn\mario\plaer.h(38): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+c:\users\евросеть\documents\visual studio 2015\projects\dfn\mario\plaer.h(49): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+c:\users\евросеть\documents\visual studio 2015\projects\dfn\mario\plaer.h(50): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+c:\users\евросеть\documents\visual studio 2015\projects\dfn\mario\plaer.h(56): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\евросеть\documents\visual studio 2015\projects\dfn\mario\plaer.h(58): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\евросеть\documents\visual studio 2015\projects\dfn\mario\plaer.h(64): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\евросеть\documents\visual studio 2015\projects\dfn\mario\enemy.h(18): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\евросеть\documents\visual studio 2015\projects\dfn\mario\enemy.h(20): warning C4305: =: усечение из "double" к "float"
+c:\users\евросеть\documents\visual studio 2015\projects\dfn\mario\enemy.h(32): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+c:\users\евросеть\documents\visual studio 2015\projects\dfn\mario\enemy.h(47): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+c:\users\евросеть\documents\visual studio 2015\projects\dfn\mario\enemy.h(48): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+c:\users\евросеть\documents\visual studio 2015\projects\dfn\mario\enemy.h(57): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\евросеть\documents\visual studio 2015\projects\dfn\mario\main.cpp(40): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
+c:\users\евросеть\documents\visual studio 2015\projects\dfn\mario\main.cpp(56): warning C4305: =: усечение из "double" к "float"
+c:\users\евросеть\documents\visual studio 2015\projects\dfn\mario\main.cpp(62): warning C4305: =: усечение из "double" к "float"
+c:\users\евросеть\documents\visual studio 2015\projects\dfn\mario\main.cpp(67): warning C4305: =: усечение из "double" к "float"
+c:\users\евросеть\documents\visual studio 2015\projects\dfn\mario\main.cpp(71): warning C4305: =: усечение из "double" к "float"
+c:\users\евросеть\documents\visual studio 2015\projects\dfn\mario\main.cpp(83): warning C4305: =: усечение из "double" к "float"
+  Mario.vcxproj -> C:\Users\евросеть\Documents\Visual Studio 2015\Projects\dfn\Debug\Mario.exe
+  Mario.vcxproj -> C:\Users\евросеть\Documents\Visual Studio 2015\Projects\dfn\Debug\Mario.pdb (Partial PDB)
