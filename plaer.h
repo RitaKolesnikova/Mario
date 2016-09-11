@@ -36,10 +36,10 @@ public:
 
 
 		currentFrame += time * 0.005;
-		if (currentFrame > 6) currentFrame -= 6;
+		if (currentFrame > 6) currentFrame -= 6;//animaciy
 
-		if (dx > 0)sprite.setTextureRect(IntRect(20 * int(currentFrame), 0, 20, 34));//анимация
-		if (dx < 0)sprite.setTextureRect(IntRect(20 * int(currentFrame) + 20, 0, -20, 34));//анимация
+		if (dx > 0)sprite.setTextureRect(IntRect(20 * int(currentFrame), 0, 20, 34));
+		if (dx < 0)sprite.setTextureRect(IntRect(20 * int(currentFrame) + 20, 0, -20, 34));
 		sprite.setPosition(rect.left - offsetX, rect.top - offsetY);
 		dx = 0;
 

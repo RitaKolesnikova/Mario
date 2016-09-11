@@ -35,7 +35,7 @@ bool startGame()
 	RectangleShape rectangle(Vector2f(16, 16));
 
 
-	while (window.isOpen())
+	while (window.isOpen())//obrabotka cobytiy otkrytiy okna
 	{
 		float time = clock.getElapsedTime().asMicroseconds();
 		clock.restart();
@@ -93,7 +93,7 @@ bool startGame()
 		if (p.rect.left > 300) offsetX = p.rect.left - 300;
 		offsetY = p.rect.top - 200;
 
-		window.clear(Color::Blue);
+		window.clear(Color::Blue);//proricovka karty
 		for (int i = 0; i < H; i++)
 			for (int j = 0; j < W; j++)
 			{
